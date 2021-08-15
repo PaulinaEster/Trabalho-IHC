@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    
+    <link rel ="shortcut icon" href = "img/Logo1.png"/>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Manual Meus Pila</title>
+</head>
+
+<body>
+    <div class="navegacao">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light position-fixed">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo1.png" alt="" width="55" height="45">
+            </a>
+            <div class="container col-8 col-md">
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section1">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section2">Cadastro e Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#section3">Página Inicial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section4">Inserir Gastos ou Receita</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section5">Minhas Metas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#section6">Relatórios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section7">Configurações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section8">Técnicas Utilizadas</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <main>
+        <!--Section 1-->
+        <div class="section1" id="section1">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <h2 class="title"> Manual </h2>
+                        <p>Prezado usuário, preparamos este manual com muito carinho, para facilitar a sua navegação
+                            pelo nosso aplicativo Meus Pila, que visa ajudá-lo a sair do vermelho e traçar metas para um
+                            futuro brilhante! Tenha uma ótima experiência!<br>
+                            Para acessar o protótipo <a
+                                href="https://www.figma.com/proto/WZQKGqYvKONKoJ4NTyycVN/Meus-Pila?node-id=20%3A57&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=20%3A57&show-proto-sidebar=1"
+                                target="_blank">clique aqui</a>.
+                        </p>
+
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+        <!--Section 2-->
+        <div class="section2" id="section2">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="title"> Cadastro ou Login </h3>
+                            <p>A tela Cadastro é muito intuitiva, nela é só inserir seu e-mail, criar um nome de
+                                usuário, uma senha e clicar no botão cadastrar e pronto! Seu cadastro já está finalizado e você
+                                pode começar a usufruir do benefícios do aplicativo Meus Pila.<br>Inicialmente abrirá a tela 
+                                Receita onde é necessário inserir a receita
+                                mensal e seus gastos fixos, esta tela é solicitada 
+                                apenas quando criada uma conta e caso seja necessário alterá-los é só ir até as
+                                configurações. O botão no canto inferior esquerdo Continuar finaliza a ação.<br>
+                                Voltando a tela de cadastro temos a opção de logar para quem já tem uma conta no
+                                aplicativo. Na tela Login é solicitado seu nome de usuário e senha, que pode ser recuperada
+                                caso necessário, através do e-mail cadastrado. Além disso ainda é possível se manter
+                                conectado na conta.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col">
+                            <h4 class="subtitle text-center">Cadastro</h4>
+                            <figure class="img">
+                                <img src="img/Cadastro.png" class="img" alt="...">
+                            </figure>
+                        </div>
+                        <div class="col">
+                            <h4 class="subtitle text-center">Login</h4>
+                            <figure class="img">
+                                <img src="img/Login.png" class="img" alt="...">
+                            </figure>
+                        </div>
+                        <div class="col">
+                            <h4 class="subtitle text-center">Receita</h4>
+                            <figure class="img">
+                                <img src="img/Receita.png" class="img" alt="...">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!--Section 3-->
+        <div class="section3" id="section3">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-8">
+                            <h3 class="title"> Página Inicial </h3>
+                            <p> Login efetuado?! Você será direcionado para a Página Inicial, nela será possível visualizar o seu saldo, podendo ocultá-lo através do ícone de
+                                'esconder' em forma de um olho. Além disso nessa página temos um gráfico que mostra seus gastos por
+                                categorias, que será atualizado automaticamente quando débito ou crédito são inseridos. Na base
+                                inferior temos o menu, que destaca a tela em que se está no
+                                momento.</p>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <figure>
+                                <img src="img/Pág inicial.png" class="img" alt="...">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!--Section 4-->
+        <div class="section4" id="section4">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md">
+                            <h3 class="title"> Inserir Gastos ou Receita </h3>
+                            <p>Ao abrir a tela Inserir Gatos ou Receita, já vem
+                                previamente selecionada a opção Despesa, porém caso você deseja inserir uma receita é
+                                só alterar na parte superior. Para ambos os casos os dados a serem inseridos são os
+                                mesmo: valor; descrição; data. A partir da descrição a despesa é enquadrada em alguma
+                                categoria para inserir o gráfico, e a data será selecionada com o auxílio de um calendário,
+                                para finalizar o cadastro é só dar o 'ok' que automaticamente ele será incluído no
+                                Relatório e gráfico mensal.<br>
+                                Esta tela é uma das mais importantes e provavelmente mais utilizadas, pois sem que os
+                                gastos sejam atualizados, não haverá controle financeiro. 
+                            </p>
+                        </div>
+                        <div class="col-12 col-md">
+                            <h4 class="subtitle text-center">Inserir Gastos </h4>
+                            <figure>
+                                <img src="img/Inserir gastos.png" class="img" alt="...">
+                            </figure>
+                        </div>
+                        <div class="col-12 col-md">
+                            <h4 class="subtitle text-center">Inserir Receita </h4>
+                            <figure>
+                                <img src="img/Inserir Receita.png" class="img" alt="...">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!--Section 5-->
+        <div class="section5" id="section5">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="title"> Minhas Metas </h3>
+                            <p>A tela Minhas Metas tem com objetivo traçar metas para as quais você pode destinar o seu dinheiro.
+                                Ao abrir a tela ela virá em branco somente com o cabeçalho e com o menu, para adicionar
+                                uma meta basta clicar no botão de “+”, no canto inferior direito, feito isso iremos para
+                                uma nova tela onde serão solicitados os seguintes dados referente a nova meta: nome;
+                                valor total; investimento inicial; previsão de término por meses. Concluído o
+                                preenchimento, clicando no 'ok' você voltará para a tela Minhas Metas e já poderá visualizar a
+                                nova meta, caso você necessite alterar algum dado, como valor investido, término, etc. Basta
+                                clicar na meta para visualizá-la e em seguida em 'Alterar Meta' no centro inferior.
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md">
+                                <h4 class="subtitle text-center">Minhas Metas </h4>
+                                <figure>
+                                    <img src="img/Página de Metas.png" class="img" alt="...">
+                                </figure>
+                            </div>
+                            <div class="col-12 col-md">
+                                <h4 class="subtitle text-center">Inserir Metas</h4>
+                                <figure>
+                                    <img src="img/Inserir Meta.png" class="img" alt="...">
+                                </figure>
+                            </div>
+                            <div class="col-12 col-md">
+                                <h4 class="subtitle text-center">Abrir Meta</h4>
+                                <figure>
+                                    <img src="img/Meta Carro novo.png" class="img" alt="...">
+                                </figure>
+                            </div>
+                            <div class="col-12 col-md">
+                                <h4 class="subtitle text-center">Alterar Metas</h4>
+                                <figure>
+                                    <img src="img/Alterar Meta.png" class="img" alt="...">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </div>
+
+        <!--Section 6-->
+        <div class="section6" id="section6">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md">
+                            <h3 class="title"> Relatórios </h3>
+                            <p>Na tela Relatórios é apresentada toda a movimentação ocorrida durante o mês e
+                                com o saldo que você concluiu o mês. Além disso nessa tela temos a opção de exportar o relatório
+                                para PDF. Caso seja necessária alguma alteração de algum gasto ou receita basta clicar
+                                em cima do mesmo que você será direcionado para a tela Alterar Despesas onde é possível alterar ou
+                                excluir aquele gasto/receita.</p>
+                        </div>
+                        <div class="col-12 col-md">
+                            <h4 class="subtitle text-center">Relatório</h4>
+                            <figure>
+                                <img src="img/PaginaRelatorios.png" class="img" alt="...">
+                            </figure>
+                        </div>
+                        <div class="col-12 col-md">
+                            <h4 class="subtitle text-center">Alterar Despesas</h4>
+                            <figure>
+                                <img src="img/Alterar Despesa Mercado.png" class="img" alt="...">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!--Section 7-->
+        <div class="section7" id="section7">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="title"> Configurações </h3>
+                            <p>Para finalizar temos a tela Configurações, onde é possível fazer a alteração dos
+                                gastos e receitas fixas, ativar ou desativar as notificações, ler  sobre
+                                o aplicativo Meus Pila, acessar o manual através do botão ajuda. E ainda alterar nas
+                                Configurações da Conta: a cor do aplicativo; tamanho da fonte; a senha da conta. E também
+                                sair ou desativar a conta.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md">
+                            <h4 class="subtitle text-center">Configurações</h4>
+                            <figure>
+                                <img src="img/PaginaConfig.png" class="img" alt="...">
+                            </figure>
+                        </div>
+                        <div class="col-12 col-md">
+                            <h4 class="subtitle text-center">Configurações de Conta</h4>
+                            <figure>
+                                <img src="img/Configurações de Conta.png" class="img" alt="...">
+                            </figure>
+                        </div>
+                        <div class="col-12 col-md">
+                            <h4 class="subtitle text-center">Sobre o meus Pila</h4>
+                            <figure>
+                                <img src="img/Sobre o Meus Pila.png" class="img" alt="...">
+                            </figure>
+                        </div>
+                        <div class="col-12 col-md">
+                            <h4 class="subtitle text-center">Alterar Senha</h4>
+                            <figure>
+                                <img src="img/Alterar Senha.png" class="img" alt="...">
+                            </figure>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!--Section 8-->
+        <div class="section8" id="section8">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="subtitle"> Técnicas Utilizadas </h3>
+                            <p>Seguimos ao máximo as prática de IHC estudadas, e as heurísticas de Nilsen,
+                                e temos em nosso projeto:</p>
+                            <ul>
+                                <li>
+                                    <p>Língua comum do usuário, através do uso de símbolos e linguagem cotidiana;</p>
+                                </li>
+                                <li>
+                                    <p> Liberdade do usuário, por exemplo ao inicializar o aplicativo é solicitado
+                                        inserção de renda e gastos fixos, porém o usuário pode optar para fazê-lo mais
+                                        tarde;</p>
+                                </li>
+                                <li>
+                                    <p> Design padrão para todas as telas; </p>
+                                </li>
+                                <li>
+                                    <p> Botão de escape para todas as ações, para evitar erro do usuário; </p>
+                                </li>
+                                <li>
+                                    <p> Reconhecimento dos caminhos invés de recordação; </p>
+                                </li>
+                                <li>
+                                    <p> Design minimalista;</p>
+                                </li>
+                                <li>
+                                    <p>O usuário sempre sabe o que está acontecendo; </p>
+                                </li>
+                                <li>
+                                    <p>Navegação simples e intuitiva; </p>
+                                </li>
+                                <li>
+                                    <p>Disponibilização de ajuda através de um manual; </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <div class="footer">
+        <footer>
+            <div class="container">
+                <p class="text-center">By Patricia e Paulina, 2021.</p>
+            </div>
+        </footer>
+    </div>
+
+
+    <!--Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

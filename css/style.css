@@ -1,0 +1,45 @@
+/* MENU DE NAVEGAÇÃO*/
+
+.navbar{
+    background: #B1EC8E;
+    margin-bottom: 100px;
+    width: 100%;
+    padding-left: 50px;
+}
+
+.navbar .nav-link{
+    color: #fff;
+    font-size: 1.07rem;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+.navbar .nav-item a:hover{
+    color: #fff;
+    background: rgb(66, 167, 66);
+}
+
+/*SECTION 1*/
+
+
+main .img{
+    height: 30rem;
+    width: 15rem;
+}
+
+main .subtitle{
+    font-size: 1.4rem;
+}
+
+main .container{
+    padding-top: 100px;
+    border-top: 2px solid #000;
+}
+
+/*FOOTER*/
+.footer{
+    border-top: 2px solid black;
+    font-weight: 600;
+    padding: 30px;
+    background: #B1EC8E;
+}
